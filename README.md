@@ -36,15 +36,24 @@ Bu, becerileri sergilemek ve iletişim bilgileri sağlamak için tasarlanmış k
 - Üzerine gelindiğinde efekt veren bir gönderme düğmesi bulunur.
 
 ### Alt Bilgi (Footer)
-- Telif hakkı bilgilerini görüntüler.
+- 2025 Alp Eray Taşçı Tüm Hakları Saklıdır.
 
-## Kurulum ve Kullanım
+## Kurulum
 1. Depoyu klonlayın.
  ````bash
 git clone <repo-url>
 ````
 3. `index.html` dosyasını bir tarayıcıda açın.
 4. Tasarımı özelleştirmek için `style.css` dosyasını düzenleyin.
+
+## Ekran Görüntüleri
+
+- Ana Sayfa
+
+![github sc1](https://github.com/user-attachments/assets/d69a29c8-465b-48da-8786-11cc26fb113b)
+- Form & Footer
+
+![github sc2](https://github.com/user-attachments/assets/25a94f42-b573-4351-8614-a675064f2f76)
 
 ## Yazar
 **Alp Eray Taşçı**
