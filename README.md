@@ -43,8 +43,8 @@ Bu, becerileri sergilemek ve iletişim bilgileri sağlamak için tasarlanmış k
  ````bash
 git clone <repo-url>
 ````
-3. `index.html` dosyasını bir tarayıcıda açın.
-4. Tasarımı özelleştirmek için `style.css` dosyasını düzenleyin.
+2. `index.html` dosyasını bir tarayıcıda açın.
+3. Tasarımı özelleştirmek için `style.css` dosyasını düzenleyin.
 
 ## Ekran Görüntüleri
 
