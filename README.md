@@ -1,2 +1,58 @@
-# Web-Portfolio-Site
- HTML ve CSS ile geliştirilen sayfa tasarımı.
+# Portfolyo Web Sitesi
+- HTML ve CSS ile geliştirilen bir portfolyo sitesi.
+- İletişim bilgilerinin yer aldığı bir portfolyo sitesi.
+
+## Genel Bakış
+Bu, becerileri sergilemek ve iletişim bilgileri sağlamak için tasarlanmış kişisel bir portfolyo web sitesidir. Web sitesi şunları içerir:
+- Bir navigasyon çubuğu
+- Animasyonlu yazı efekti içeren bir giriş bölümü
+- Sosyal medya bağlantıları
+- Hakkımızda bölümü
+- İletişim formu
+- Alt bilgi (footer)
+
+## Kullanılan Teknolojiler
+- HTML
+- CSS
+- FontAwesome (ikonlar için)
+
+## Özellikler
+### Navigasyon Çubuğu
+- Ana Sayfa, Hakkımızda ve İletişim bölümlerine bağlantılar içerir.
+- Üzerine gelindiğinde efektler uygulanır.
+
+### Giriş Bölümü
+- Animasyonlu yazı efekti ile hoş geldiniz mesajı görüntüler.
+- Sosyal medya bağlantıları ve fare ile üzerine gelindiğinde efektler içerir.
+- İletişime geçmek için bir çağrı düğmesi bulunur.
+
+### Hakkımızda Bölümü
+- Web sitesinin amacını anlatan kısa bir tanıtım içerir.
+- Merkezlenmiş metin ve modern yazı boyutlarıyla tasarlanmıştır.
+
+### İletişim Bölümü
+- E-posta, ad ve yorum girişi için alanlar içerir.
+- Yuvarlatılmış kenarları olan, şık giriş alanları mevcuttur.
+- Üzerine gelindiğinde efekt veren bir gönderme düğmesi bulunur.
+
+### Alt Bilgi (Footer)
+- Telif hakkı bilgilerini görüntüler.
+
+## Kurulum ve Kullanım
+1. Depoyu klonlayın.
+ ````bash
+git clone <repo-url>
+````
+3. `index.html` dosyasını bir tarayıcıda açın.
+4. Tasarımı özelleştirmek için `style.css` dosyasını düzenleyin.
+
+## Yazar
+**Alp Eray Taşçı**
+
+## Lisans
+MIT Lisansı
+
+## Katkıda Bulunma
+
+1. Projeyi fork edin,
+2. Değişikliklerinizi yapın ve pull request gönderin.
