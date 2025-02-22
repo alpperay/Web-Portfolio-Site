@@ -59,7 +59,7 @@ git clone <repo-url>
 **Alp Eray Taşçı**
 
 ## Lisans
-MIT Lisansı
+MIT Lisansı / 2025 Alp Eray Taşçı Tüm Hakları Saklıdır.
 
 ## Katkıda Bulunma
 
