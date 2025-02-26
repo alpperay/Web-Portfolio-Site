@@ -11,11 +11,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 880px;
-}
-
-#contact {
-  scroll-margin-top: -200px;
+  scroll-padding-top: 900px;
 }
 
 body {
@@ -24,11 +20,13 @@ body {
     rgba(8, 11, 11, 1) 1%,
     rgba(14, 44, 52, 1) 99%
   );
+  width: 100%;
+  height: 33%;
 }
 
 .logo h1 {
-  font-size: 50px;
-  letter-spacing: 20px;
+  font-size: 1.5vw;
+  letter-spacing: 10px;
   color: whitesmoke;
   text-shadow: 0 0 25px aliceblue;
   padding-top: 10px;
@@ -40,20 +38,20 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 30px;
+  padding: 10px 30px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 50px;
+  padding: 20px;
 }
 
 .navbar ul li a {
@@ -61,7 +59,6 @@ body {
   color: white;
   font-size: 40px;
   transition: all 0.3s ease-in-out;
-  padding: 10px 20px;
   border-radius: 10px;
 }
 
@@ -86,11 +83,7 @@ body {
 
 .main h3 {
   color: #3a86ff;
-  font-size: 100px;
-}
-
-.main .span {
-  position: relative;
+  font-size: 3vw;
 }
 
 .main .span::before {
@@ -224,33 +217,47 @@ body {
 }
 
 .iletisim-alanı form input[type="email"] {
-  width: 20%;
+  width: 30%;
   text-align: center;
-  height: 90px;
+  height: 110px;
   border-radius: 70px;
   font-size: 45px;
-  border: 4px solid blue;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid + span::before{
+    content: '×';
+}
+
+input:valid + span::before{
+    content: '✓';  
 }
 
 .iletisim-alanı form input[type="text"] {
-  width: 20%;
+  width: 30%;
   text-align: center;
-  height: 90px;
+  height: 110px;
   border-radius: 70px;
   font-size: 45px;
-  border: 4px solid blue;
 }
 
 .iletisim-alanı form textarea {
-  width: 20%;
+  width: 30%;
   height: 300px;
   font-size: 45px;
-  border: 2px solid blue;
   text-align: center;
+  font-size: 45px;
 }
 
 .iletisim-alanı form input[type="submit"] {
-  width: 19%;
+  width: 29%;
   height: 80px;
   color: white;
   font-size: 40px;
@@ -266,7 +273,7 @@ footer {
 }
 
 footer h1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
+  font-size: 50px;
+  color: white;
+  text-align: center;
 }
