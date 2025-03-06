@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", serif;
+  font-family: "Montserrat", sans-serif;
   border: none;
   outline: none;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 900px;
 }
 
 body {
@@ -20,16 +19,14 @@ body {
     rgba(8, 11, 11, 1) 1%,
     rgba(14, 44, 52, 1) 99%
   );
-  width: 100%;
-  height: 33%;
 }
 
 .logo h1 {
-  font-size: 1.5vw;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   color: whitesmoke;
-  text-shadow: 0 0 25px aliceblue;
+  text-shadow: 0 0 15px aliceblue;
   padding-top: 10px;
+  font-size: 24px;
 }
 
 .logo a {
@@ -39,42 +36,38 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  padding: 10px 30px;
+  padding: 5px 20px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 50px;
-  padding: 20px;
+  gap: 30px;
+  padding: 10px;
 }
 
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-size: 40px;
+  font-size: 18px;
   transition: all 0.3s ease-in-out;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .navbar ul li a:hover {
-  text-shadow: 0 0 25px whitesmoke;
+  text-shadow: 0 0 15px whitesmoke;
   text-decoration: underline;
 }
 
 .main {
   color: white;
-  margin-top: 200px;
+  margin-top: 150px;
   text-align: center;
 }
 
 .main h1 {
-  font-size: 130px;
+  font-size: 50px;
 }
 
 .main h1 > span {
@@ -83,25 +76,23 @@ body {
 
 .main h3 {
   color: #3a86ff;
-  font-size: 3vw;
+  font-size: 40px;
 }
 
 .main .span::before {
   content: "Software Developer";
   color: blue;
   animation: words 5s infinite;
-  font-size: 100px;
-  transition: opacity 0.5s ease-in-out;
+  font-size: 42px;
 }
 
 .main .span::after {
   content: "";
   background-color: white;
-  height: 90px;
-  width: 5px;
+  height: 50px;
+  width: 3px;
   display: inline-block;
-  margin-left: 5px;
-  padding-bottom: 20px;
+  margin-left: 3px;
   animation: cursor-blink 0.7s infinite;
 }
 
@@ -115,26 +106,22 @@ body {
   0%,
   20% {
     content: "Web Developer";
-    opacity: 1;
   }
   21%,
   40% {
     content: "Web Designer";
-    opacity: 1;
   }
   41%,
   60% {
     content: "Software Developer";
-    opacity: 1;
   }
 }
 
 .main button {
   background-color: #007bff;
-  padding: 15px 30px;
-  border-radius: 30px;
-  font-size: 40px;
-  transition: 0.3s;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 17px;
   cursor: pointer;
   margin-top: 20px;
   color: white;
@@ -142,7 +129,7 @@ body {
 
 .main button:hover {
   background-color: #0056b3;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .main .social-icons {
@@ -150,12 +137,12 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .main .social-icons a {
-  width: 8rem;
-  height: 8rem;
+  width: 3rem;
+  height: 3rem;
   border: 1px solid blue;
   border-radius: 50%;
   display: flex;
@@ -163,117 +150,95 @@ body {
   justify-content: center;
   text-decoration: none;
   color: cornflowerblue;
-  font-size: 50px;
-  transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .main .social-icons a:hover {
   border: 1px solid white;
   color: white;
   background-color: black;
-  transform: scale(1.2) translateY(-5px);
-  box-shadow: 0 0 15px blue;
+  transform: scale(1.09);
+  box-shadow: 0 0 10px blue;
 }
 
 .hakkımızda-alanı {
-  margin: 500px 0 800px 0;
+  margin-top: 45px;
   color: white;
-  width: auto;
-  height: auto;
-  padding: 60px;
-  text-align: center;
+  padding-left: 10px;
 }
 
 .hakkımızda-alanı h1 {
-  color: wheat;
-  text-shadow: 0 0 25px whitesmoke;
+  color: #25e;
+  text-shadow: 0 0 15px;
   font-weight: bold;
-  font-size: 80px;
-  margin-bottom: 25px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .hakkımızda-alanı p {
-  font-size: 50px;
-  line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .iletisim-alanı {
   color: white;
   width: 100%;
   height: auto;
-  padding: 60px;
+  padding: 40px;
   text-align: center;
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin: 15px auto;
+  margin-top: 70px;
+  box-shadow: 0 0 25px whitesmoke;
 }
 
 .iletisim-alanı h1 {
-  color: wheat;
-  text-shadow: 0 0 25px whitesmoke;
-  font-size: 80px;
+  color: #25e;
+  text-shadow: 0 0 15px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
 .iletisim-alanı form label {
-  font-size: 40px;
+  font-size: 20px;
+  color: black;
+  display: block;
+  text-align: left;
+  margin-top: 20px;
 }
 
-.iletisim-alanı form input[type="email"] {
-  width: 30%;
+.iletisim-alanı form input {
+  width: 100%;
   text-align: center;
-  height: 110px;
-  border-radius: 70px;
-  font-size: 45px;
-}
-
-input:invalid{
-    border-color: red;
-}
-
-input:valid{
-    border-color: green;
-}
-
-input:invalid + span::before{
-    content: '×';
-}
-
-input:valid + span::before{
-    content: '✓';  
-}
-
-.iletisim-alanı form input[type="text"] {
-  width: 30%;
-  text-align: center;
-  height: 110px;
-  border-radius: 70px;
-  font-size: 45px;
-}
-
-.iletisim-alanı form textarea {
-  width: 30%;
-  height: 300px;
-  font-size: 45px;
-  text-align: center;
-  font-size: 45px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: 1px solid #3a86ff;
 }
 
 .iletisim-alanı form input[type="submit"] {
-  width: 29%;
-  height: 80px;
+  width: 80%;
+  height: 50px;
   color: white;
-  font-size: 40px;
-  border-radius: 10px;
-  margin: 10px;
-  background: deepskyblue;
-  transform: scale(1.05);
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 5px;
+  background: #25e;
   cursor: pointer;
 }
 
-footer {
-  margin: 40px;
+.iletisim-alanı form input[type="submit"]:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #3a86ff;
 }
 
 footer h1 {
-  font-size: 50px;
+  font-size: 20px;
   color: white;
   text-align: center;
+  margin-top: 190px;
+  margin-left: 20px;
 }
