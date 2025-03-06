@@ -48,12 +48,18 @@ git clone <repo-url>
 
 ## Ekran Görüntüleri
 
-- Ana Sayfa
+**Ana Sayfa (index.html)**
 
-![github sc1](https://github.com/user-attachments/assets/d69a29c8-465b-48da-8786-11cc26fb113b)
-- Form & Footer
+![sc1](https://github.com/user-attachments/assets/2896d74a-402e-484f-88fc-0254c1820e51)
 
-![github sc2](https://github.com/user-attachments/assets/25a94f42-b573-4351-8614-a675064f2f76)
+
+**Form (iletisim.html)**
+
+![sc2](https://github.com/user-attachments/assets/be237816-c4a8-4a16-a622-c96ebcee3e39)
+
+**Hakkımızda (hakkımızda.html)**
+
+![sc3](https://github.com/user-attachments/assets/fd41d3d7-9dd0-4cb0-a824-685b0805addb)
 
 ## Geliştirici & Yazar
 **Alp Eray Taşçı**
